@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+  font-family: Oswald, sans-serif;
+}
+
+
+#btnSaludar, button{
+ 
+background-color: #FED825;
+color:rgb(58, 57, 57);
+border-radius: 15px;
+border: solid black 1px;
+padding-top: 4px;
+padding-bottom: 15px;
+font-family: Oswald, sans-serif;
+width: 130px;
+height: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Kettlebells</title>
+</head>
+<body>
+    <h1>Bienvenido a nuestra tienda de kettlebells</h1>
+
+    <div>
+        <label for="inputNombre">Ingresa tu nombre completo:</label>
+        <input type="text" id="inputNombre" />
+        <button id="btnSaludar">BIENVENIDO</button>
+    </div>
+
+    <div id="resultadoSaludo"></div>
+
+    <button id="btnVerPesos">PESOS DISPONIBLES</button>
+    <div id="infoPesasRusas"></div>
+
+    <div>
+        <label for="inputPeso">Ingresa el peso deseado en kg:</label>
+        <input type="number" id="inputPeso" />
+        <button id="btnBuscarPesa">ELEGIR</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <div>
+        <label for="selectPago">Seleccione método de pago:</label>
+        <select id="selectPago">
+            <option value="efectivo">Efectivo</option>
+            <option value="debito">Tarjeta de Débito</option>
+            <option value="credito">Tarjeta de Crédito</option>
+        </select>
+    </div>
+
+    <button id="btnRealizarCompra">COMPRA</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
